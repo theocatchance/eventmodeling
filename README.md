@@ -96,7 +96,7 @@ Our core domain
 docker run -d --name nats -p 4222:4222 -p 8222:8222 -p 6222:6222 nats --jetstream -m 8222
 
 rush install
-ts-node feature/hotel-booking/backend/main.ts 
+ts-node feature/hotel-booking/backend/hotel-booking.app.ts 
 
 curl --request PUT \
  --url http://127.0.0.1:3000/mutation/book-room \

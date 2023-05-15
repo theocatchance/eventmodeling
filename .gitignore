@@ -74,3 +74,6 @@ common/autoinstallers/*/.npmrc
 
 # Heft temporary files
 .heft
+
+# Visual Studio Code files
+.vscode/
